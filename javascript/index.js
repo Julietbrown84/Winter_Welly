@@ -21,4 +21,7 @@ function fallingSnow() {
     window.setInterval(function(){
         fallingSnow();
     }, timer);
+
+
+
 $(document).ready(main);
