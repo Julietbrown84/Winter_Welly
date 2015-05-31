@@ -9,11 +9,86 @@
   }
 
 body {
-    background-image: url("http://designreviver.com/wp-content/uploads/2013/12/Winter-Scenes-Wallpaper-Free.jpg");
+    height: 100%;
+    position: relative;
+    opacity: 0.9;
+    background-image: url("http://g-ecx.images-amazon.com/images/G/01/dvd/lionsgate/AMOLD_extra_lg.jpg");
+   /* background-size: 2000px;*/
+
    
-}*/
+}
+
+div {
+    height:200px;
+    width:500px;
+    display: inline-block;
+  
+}
+
+/* Initial menu */
+.menu {
+  background: #202024 url('http://www.thisiscolossal.com/wp-content/uploads/2013/01/3.gif') repeat left top;
+  left: -285px;  
+  height: 100%;
+  position: fixed;
+  width: 285px;
+}
+
+.snowflakes {
+    top:0px;
+    left:0px;
+    position:absolute;
+    z-index:200;
+    width:10px;
+    height:10px;
+    background:white;
+  }
 
 
-.man-walking {
-	margin-right: 100px;
+.menu ul {
+  border-top: 1px solid #636366;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+h1 { position: absolute; font-size: 40px; font-family: 'Open Sans', sans-serif; }
+
+.menu li {
+  border-bottom: 1px solid #636366;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+
+.menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.icon-menu {
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+
+
+.icon-menu i {
+  margin-right: 40px;
 }

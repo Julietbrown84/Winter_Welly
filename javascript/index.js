@@ -1,4 +1,30 @@
-function fallingSnow() {
+$(window).ready(function() {
+        $("h1").animate({top: '500px',right: '300px'});
+       });
+
+
+var main = function() {
+  $('.icon-menu').click(function() {
+    $('.menu').animate({
+      left: "0px"
+    }, 200);
+
+    $('body').animate({
+      left: "285px"
+    }, 200);
+  });
+
+  $('.icon-close').click(function() {
+    $('.menu').animate({
+      left: "-285px"
+    }, 200);
+
+    $('body').animate({
+      left: "0px"
+    }, 200);
+  });
+};
+   function fallingSnow() {
     
         var snowflake = $('<div class="snowflakes"></div>');
         $('#snowZone').prepend(snowflake);
@@ -21,7 +47,4 @@ function fallingSnow() {
     window.setInterval(function(){
         fallingSnow();
     }, timer);
-
-
-
 $(document).ready(main);
