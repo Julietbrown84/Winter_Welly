@@ -1,4 +1,9 @@
-html, body { position: fixed; height: 100%; width: 100%; }
+
+html, body { 
+  position: fixed; 
+  height: 100%; 
+  width: 100%;
+}
 
 .snowflakes {
     top:0px;
@@ -24,22 +29,6 @@ body {
     background-image: url("http://designreviver.com/wp-content/uploads/2013/12/Winter-Scenes-Wallpaper-Free.jpg");
   }
 
-  body {
-    left: 0;
-    margin: 0;
-    overflow: hidden;
-    position: relative;
-}
-
-
-
-.menu {
-  background: #F8F8F8 url('') repeat left top;
-  left: -1285px;    
-  height: 100%;
-  position: fixed;
-  width: 285px;
-}
 
 .snowflakes {
     top:0px;
