@@ -28,5 +28,4 @@ window.setInterval(function(){
 }, timer);
 
 
-
 $(document).ready(main);
